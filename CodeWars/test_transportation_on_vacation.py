@@ -24,3 +24,4 @@ def test_random():
         print(f"testing for rental_car_cost({d})")
         result = rental_car_cost(d)
         assert result == expected, f"{result!r} should equal {expected!r}"
+        #pytest
