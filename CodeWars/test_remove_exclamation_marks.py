@@ -20,3 +20,4 @@ def test_random():
         print(f"Testing for remove_exclamation_marks({s!r})")
         result = remove_exclamation_marks(s)
         assert result == expected, f"{result!r} should equal {expected!r}"
+#pytest
