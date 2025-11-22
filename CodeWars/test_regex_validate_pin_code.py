@@ -44,4 +44,4 @@ def test_random():
         valid = ''.join(random.choices(string.digits, k=length))
         pos = random.randint(0, length-1)
         pin = valid[:pos] + random.choice(string.ascii_letters + '.-') + valid[pos+1:]
-        assert validate_pin(pin) is False
+        assert validate_pin(pin) is False 
